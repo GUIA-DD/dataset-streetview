@@ -16,7 +16,7 @@ Pipeline para montar um dataset do Google Street View no Distrito Federal com:
 Cada lote fica assim:
 
 ```text
-datasets/df_2024_plus/
+datasets/df_2024_proportional/
   anchor_set_sample.csv
   batches.csv
   locations_all.csv
@@ -76,8 +76,8 @@ python fetch_data.py \
   --batch-size 1000 \
   --max-images 8000 \
   --candidate-multiplier 2.0 \
-  --output-dir datasets/df_2024_plus \
-  --cache-dir cache/df_2024_plus
+  --output-dir datasets/df_2024_proportional \
+  --cache-dir cache/df_2024_proportional
 ```
 
 Notas:

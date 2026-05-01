@@ -1,0 +1,58 @@
+{
+  "place_query": "Distrito Federal, Brazil",
+  "min_year": 2024,
+  "heading_set": "cardinal",
+  "sampling_strategy": "proportional",
+  "images_per_location": 4,
+  "batch_size": 1000,
+  "max_images": 8000,
+  "skip_download": true,
+  "output_dir": "datasets/df_2024_plus",
+  "cache_dir": "cache/df_2024_plus",
+  "github_repo_url": "https://github.com/GUIA-DD/dataset-streetview",
+  "github_branch": "main",
+  "quota_backoff_initial_s": 30.0,
+  "quota_backoff_max_s": 900.0,
+  "quota_max_retries": 6,
+  "metadata_stats": {
+    "metadata_processed": 3293,
+    "metadata_network_calls": 5,
+    "metadata_cache_hits": 3288,
+    "eligible_locations": 2000,
+    "duplicate_panos_skipped": 20,
+    "pre_2024_skipped": 760,
+    "metadata_failures": 513,
+    "quota_events": 0,
+    "quota_stop": 0
+  },
+  "batch_stats": {
+    "heading_set": "cardinal",
+    "images_per_location": 4,
+    "locations_per_batch": 250,
+    "full_batches": 8,
+    "used_locations": 2000,
+    "used_images": 8000,
+    "leftover_eligible_locations": 0,
+    "leftover_eligible_images": 0
+  },
+  "write_stats": {
+    "downloaded_images": 3780,
+    "failed_downloads": 0,
+    "skipped_downloads": 4220,
+    "quota_events": 0,
+    "quota_stop": 0,
+    "quota_stop_reason": null
+  },
+  "anchor_stats": {
+    "anchor_sample_written": true,
+    "anchor_sample_size": 1000,
+    "anchor_sample_path": "datasets/df_2024_plus/anchor_set_sample.csv"
+  },
+  "paper_alignment": {
+    "four_cardinal_headings": true,
+    "location_level_outputs": true,
+    "anchor_sample_written": true,
+    "pairwise_mllm_ranking_implemented": false,
+    "clip_knn_city_scoring_implemented": false
+  }
+}
