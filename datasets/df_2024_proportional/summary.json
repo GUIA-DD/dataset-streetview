@@ -6,22 +6,22 @@
   "images_per_location": 4,
   "batch_size": 1000,
   "max_images": 8000,
-  "skip_download": true,
-  "output_dir": "datasets/df_2024_plus",
-  "cache_dir": "cache/df_2024_plus",
+  "skip_download": false,
+  "output_dir": "datasets/df_2024_proportional",
+  "cache_dir": "cache/df_2024_proportional",
   "github_repo_url": "https://github.com/GUIA-DD/dataset-streetview",
-  "github_branch": "main",
+  "github_branch": "refs/heads/main",
   "quota_backoff_initial_s": 30.0,
   "quota_backoff_max_s": 900.0,
   "quota_max_retries": 6,
   "metadata_stats": {
-    "metadata_processed": 3293,
-    "metadata_network_calls": 5,
-    "metadata_cache_hits": 3288,
+    "metadata_processed": 3289,
+    "metadata_network_calls": 0,
+    "metadata_cache_hits": 3289,
     "eligible_locations": 2000,
     "duplicate_panos_skipped": 20,
-    "pre_2024_skipped": 760,
-    "metadata_failures": 513,
+    "pre_2024_skipped": 759,
+    "metadata_failures": 510,
     "quota_events": 0,
     "quota_stop": 0
   },
@@ -36,9 +36,9 @@
     "leftover_eligible_images": 0
   },
   "write_stats": {
-    "downloaded_images": 3780,
+    "downloaded_images": 8000,
     "failed_downloads": 0,
-    "skipped_downloads": 4220,
+    "skipped_downloads": 0,
     "quota_events": 0,
     "quota_stop": 0,
     "quota_stop_reason": null
@@ -46,7 +46,7 @@
   "anchor_stats": {
     "anchor_sample_written": true,
     "anchor_sample_size": 1000,
-    "anchor_sample_path": "datasets/df_2024_plus/anchor_set_sample.csv"
+    "anchor_sample_path": "datasets/df_2024_proportional/anchor_set_sample.csv"
   },
   "paper_alignment": {
     "four_cardinal_headings": true,

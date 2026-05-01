@@ -40,7 +40,7 @@ DEFAULT_REPORT_EVERY = 250
 
 # URL do repositório para o CSV
 DEFAULT_GITHUB_REPO_URL = "https://github.com/GUIA-DD/dataset-streetview"
-DEFAULT_GITHUB_BRANCH = "main"
+DEFAULT_GITHUB_BRANCH = "refs/heads/main"
 
 STREETVIEW_METADATA_URL = "https://maps.googleapis.com/maps/api/streetview/metadata"
 STREETVIEW_IMAGE_URL = "https://maps.googleapis.com/maps/api/streetview"
